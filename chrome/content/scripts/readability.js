@@ -335,14 +335,7 @@ var readability = {
         articleFooter.innerHTML = [
         "<div id='rdb-footer-print'>Excerpted from <cite>" + document.title + "</cite><br />" + window.location.href + "</div>",
         "<div id='rdb-footer-wrapper'>",
-             "<div id='rdb-footer-left'>",
-                 "<a href='http://lab.arc90.com/experiments/readability' id='readability-logo'>Readability &mdash;&nbsp;</a>",
-                 "<a href='http://www.arc90.com/' id='arc90-logo'> An Arc90 Laboratory Experiment&nbsp;</a>",
-                 " <span id='readability-url'> http://lab.arc90.com/experiments/readability</span>",
-             "</div>",
-             "<div id='rdb-footer-right'>",
-                 "<a href='http://www.twitter.com/arc90' class='footer-twitterLink'>Follow us on Twitter &raquo;</a>",
-                 "<span class='version'>Readability version " + readability.version + "</span>",
+'<a href="http://readability.com/learn-more" target="_top"><div id="legacy-bkmk"><img width="99" height="147" alt="Devices" src="chrome://readability/content/images/footer_devices.1298660361.png"><div class="block-wrap"><div class="inner"><h4>Sign Up &amp; Read Comfortably&mdash;Anytime, Anywhere</h4><p>A subscription to Readability offers great features for mobile reading, saving articles for later and supporting the writers you enjoy. <span class="main-link">Learn More »</span></p></div></div></div></a>',
              "</div>",
         "</div>"].join('');
                 

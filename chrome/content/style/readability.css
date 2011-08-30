@@ -105,3 +105,88 @@ a.rdbTK-powered span{display:inline-block;height:22px;margin-left:2px;background
 #kindle-container,#email-container{position:fixed;top:60px;left:50%;width:500px;height:490px;border:solid 3px #666;background-color:#fff;z-index:100!important;overflow:hidden;margin:0 0 0 -240px;padding:0;}
 /* Override html styling attributes */
 table,tr,td{background-color:transparent!important;}
+
+#read-bar {
+    background: #f3f3ef;
+    height: 30px;
+    padding: 10px;
+    border-top: 1px solid #FFF;
+    border-bottom: 2px solid #b24848
+}
+
+#mobile-rdd-logo {
+	vertical-align:top
+	}
+	
+input[type="text"]#rdd-link {
+	padding: 0; 
+	background: none; 
+	border: none; 
+	box-shadow: none !important;
+	width: auto !important; 
+	font-size:1em;
+	vertical-align: baseline;
+	-webkit-appearance:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	-webkit-box-shadow: none;
+	}
+
+.page-mobile-single #read-bar {
+	text-align: center;
+	border-top:none;
+	padding-top: .4em;
+	height: 21px;
+	font-size:.9em;
+	}
+
+.page-mobile-single #read-bar {
+	color:#4e4d45;
+	}
+
+#read-bar #logo {background: url(../images/logo_chair.png); display: block; float: left; width: 140px; height: 22px; text-indent: -99em;}
+#reading-mode-toggle {margin: 0 auto; width: 30em; text-align: center; font-size:1em; padding-top: .2em; color: #000 !important; }
+#reading-mode-toggle img {vertical-align: middle; margin:-.1em .2em 0 0; float:none;}
+#reading-mode-toggle a, #reading-mode-toggle a:visited {
+    color: #9c0000 !important;
+    border-bottom: 1px solid #aeaea4;
+    text-decoration: none  !important;
+}
+
+#reading-mode-toggle a:hover {
+    color: #000 !important;
+}
+
+a#couch-link, a#couch-link:visited {
+    border-bottom: none;
+    text-decoration: none;
+    border: none;
+}
+
+a#close, a#close:visited {
+    float: right;
+    display: block;
+    width: 23px;
+    opacity: .75;
+    height: 24px;
+    background: url(../images/close_bar.png);
+}
+
+a#close:hover, a#close:active {
+    opacity:1;
+}
+
+#legacy-bkmk {margin-top: .7em; padding: .6em 0 1.8em; color: #080000; text-decoration: none; overflow: hidden;}
+#legacy-bkmk span.main-link { color: #9C0001; border-bottom: 1px solid #C7C7C7; }
+#rdb-article #legacy-bkmk img {position: absolute; margin-top: -.3em}
+#legacy-bkmk h4 {font-size: 1em; margin: 0}
+#legacy-bkmk p {margin-top:.3em; font-size:.8em}
+#legacy-bkmk .inner {
+padding:.8em 1em .3em 5.8em;
+border:1px solid #DCD9D5;
+margin:0;
+}
+.style-apertura .block-wrap {
+background:none repeat scroll 0 0 #2D2828;
+color:#D6DBDF;
+}

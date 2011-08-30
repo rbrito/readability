@@ -6,7 +6,7 @@
     <em:id>{6005d9b1-d115-485a-a92a-3f6453ca3fe2}</em:id>
 	<em:type>2</em:type>
 	<em:name>Readability</em:name>
-    <em:version>1.3.5</em:version>
+    <em:version>1.4</em:version>
     <em:creator>Arc90,Baris Derin</em:creator>
     <em:description>Readability is a simple tool that makes reading on the Web more enjoyable by removing the clutter around what you are reading.</em:description>
 	<em:iconURL>chrome://readability/skin/addonicon.png</em:iconURL>
@@ -26,7 +26,8 @@
 	<em:translator>Luana - Italian</em:translator>
 	<em:translator>SiiiE - Hebrew</em:translator>
 	<em:translator>Grunt - Estonian (Estonia)</em:translator>
-	
+	<em:unpack>true</em:unpack>
+		
    <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- firefox -->
