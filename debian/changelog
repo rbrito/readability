@@ -1,5 +1,11 @@
 readability (1.7-1) unstable; urgency=low
 
   * Initial release.
+  * [8ea24b5] Add basic debian packaging.
+  * [67dde4e] debian/patches: Remove branding/advertising.
+  * [8a0f951] debian/patches: Make extension compatible with more versions of Firefox.
+  * [cf80cd0] debian/patches: Make possible to have narrower margins.
+  * [5fa42fa] debian/patches: Add series file for quilt.
+  * [73a200c] gitignore: Ignore quilt debris.
 
- -- Rogério Brito <rbrito@ime.usp.br>  Tue, 30 Aug 2011 03:59:38 -0300
+ -- Rogério Brito <rbrito@ime.usp.br>  Tue, 30 Aug 2011 04:38:58 -0300
