@@ -1,0 +1,4 @@
+version=3
+ftp://ftp.mozilla.org/pub/addons/46442/ \
+	readability-(.*)-fx.xpi \
+	debian xpi-repack

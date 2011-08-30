@@ -1,0 +1,50 @@
+Source: readability
+Section: web
+Priority: optional
+Maintainer: Debian Mozilla Extension Maintainers <pkg-mozext-maintainers@lists.alioth.debian.org>
+Uploaders:
+ Rogério Brito <rbrito@ime.usp.br>
+Build-Depends:
+ debhelper (>= 8),
+ mozilla-devscripts
+Standards-Version: 3.9.2
+Homepage: http://lab.arc90.com/experiments/readability/
+Vcs-Git: git://git.debian.org/pkg-mozext/readability.git
+Vcs-Browser: http://git.debian.org/?p=pkg-mozext/readability.git
+
+Package: xul-ext-readability
+Architecture: all
+Depends:
+ ${misc:Depends}
+Recommends:
+ ${xpi:Recommends}
+Enhances:
+ ${xpi:Enhances}
+Provides:
+ ${xpi:Provides}
+Description: tool to remove clutter to make reading on the Web more enjoyable
+ Readability is a Firefox/Iceweasel add-on that makes reading web pages simpler
+ and more enjoyable. The system strips the superfluous information and shows
+ the main content in a single column of easy-to-read text. It is also a
+ precious tool for printing the web pages in less.
+ .
+ To use it just click the R icon on Firefox statusbar. Also by right clicking
+ on R icon you can get other Styling Options.
+ .
+ Users can also add a Toolbar button to the navigation toolbox. Just right
+ click on any toolbar button and choose the "Customise" option to drag the
+ icon in toolbox.
+ .
+ The keyboard shortcut to activate Readability is CTRL+ALT+R combination. To
+ return to original page use CTRL+R combination.
+ .
+ Readability contains Autoscroll functionality, too.
+ .
+ As the name suggests Autoscroll functionality will let you scroll the pages
+ automatically without using your mouse or keyboard. After you activate the
+ Readability and simplify the page, just press CTRL + SHIFT + A keyboard
+ combination to start using the Autoscroll.
+ .
+ Autoscroll does not require activating Readability. It simply works on any
+ long web page you come up with. But combined with Readability it just
+ improves the idea.
