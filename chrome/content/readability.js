@@ -12,23 +12,68 @@
 				readabilityUrl='http://barisderin.com/?p=70';
 				gBrowser.selectedTab = gBrowser.addTab(readabilityUrl);	
 			}
-			var readabilityversion = readabilityprefsinstance.getCharPref("extensions.readability.currentversion");
-			var readabilityetensionmanagerinstance = Components.classes["@mozilla.org/extensions/manager;1"].getService(Components.interfaces.nsIExtensionManager);
-			var readabilityextension = readabilityetensionmanagerinstance.getItemForID("{6005d9b1-d115-485a-a92a-3f6453ca3fe2}");
-			var readabilitynewversion = readabilityextension.version;
-			if (readabilityversion != readabilitynewversion) {
-				readabilityprefsinstance.setCharPref("extensions.readability.currentversion", readabilitynewversion);
-			}
+			
+			try {
+			
+				var readabilityversion = readabilityprefsinstance.getCharPref("extensions.readability.currentversion");
+				var readabilityetensionmanagerinstance = Components.classes["@mozilla.org/extensions/manager;1"].getService(Components.interfaces.nsIExtensionManager);
+				var readabilityextension = readabilityetensionmanagerinstance.getItemForID("{6005d9b1-d115-485a-a92a-3f6453ca3fe2}");
+				var readabilitynewversion = readabilityextension.version;
+				if (readabilityversion != readabilitynewversion) {
+					readabilityprefsinstance.setCharPref("extensions.readability.currentversion", readabilitynewversion);
+				}
+						
+			}	
+			
+			catch(e){
+				
+				Components.utils.import("resource://gre/modules/AddonManager.jsm");  
+				AddonManager.getAddonByID("{6005d9b1-d115-485a-a92a-3f6453ca3fe2}", function(addon) { 			
+			
+					var readabilityversion = readabilityprefsinstance.getCharPref("extensions.readability.currentversion");
+					
+					var readabilitynewversion = addon.version;
+					if (readabilityversion != readabilitynewversion) {
+						readabilityprefsinstance.setCharPref("extensions.readability.currentversion", readabilitynewversion);
+					}
+				
+				}); 
+							
+			}		
+			
 		},
 		instalandupdatecheck:function (event)  {
-			var readabilityprefsinstance = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
-			var readabilityversion = readabilityprefsinstance.getCharPref("extensions.readability.currentversion");
-			var readabilityetensionmanagerinstance = Components.classes["@mozilla.org/extensions/manager;1"].getService(Components.interfaces.nsIExtensionManager);
-			var readabilityextension = readabilityetensionmanagerinstance.getItemForID("{6005d9b1-d115-485a-a92a-3f6453ca3fe2}");
-			var readabilitynewversion = readabilityextension.version;
-			if (readabilityversion != readabilitynewversion) {
-				gBrowser.addEventListener('DOMContentLoaded', Readability.readabilityFirstRun, true);
+			
+			try{
+			
+				var readabilityprefsinstance = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
+				var readabilityversion = readabilityprefsinstance.getCharPref("extensions.readability.currentversion");
+				var readabilityetensionmanagerinstance = Components.classes["@mozilla.org/extensions/manager;1"].getService(Components.interfaces.nsIExtensionManager);
+				var readabilityextension = readabilityetensionmanagerinstance.getItemForID("{6005d9b1-d115-485a-a92a-3f6453ca3fe2}");
+				var readabilitynewversion = readabilityextension.version;
+				if (readabilityversion != readabilitynewversion) {
+					gBrowser.addEventListener('DOMContentLoaded', Readability.readabilityFirstRun, true);
+				}
+			
 			}
+			
+			catch(e){
+				
+				Components.utils.import("resource://gre/modules/AddonManager.jsm");  
+				AddonManager.getAddonByID("{6005d9b1-d115-485a-a92a-3f6453ca3fe2}", function(addon) { 			
+				
+					var readabilityprefsinstance = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
+					var readabilityversion = readabilityprefsinstance.getCharPref("extensions.readability.currentversion");
+					
+					var readabilitynewversion = addon.version;
+					if (readabilityversion != readabilitynewversion) {
+						gBrowser.addEventListener('DOMContentLoaded', Readability.readabilityFirstRun, true);
+					}
+				
+				}); 
+							
+			}	
+			
 		},
 		mainWindowLoadHandler:function(event){
 			Readability.instalandupdatecheck(event);

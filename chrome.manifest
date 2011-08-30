@@ -19,3 +19,8 @@ locale	readability	nl	chrome/locale/nl/
 locale	readability	it	chrome/locale/it/
 locale	readability	he	chrome/locale/he/
 locale	readability	et-EE	chrome/locale/et-EE/
+
+# The {classID} here must match the classID in ReadabilityStartup.js
+component {530fe457-58ea-493a-94c3-2616a2dc54f0} components/ReadabilityStartup.js
+contract @readability/startup;1 {530fe457-58ea-493a-94c3-2616a2dc54f0}
+category profile-after-change ReadabilityStartup @readability/startup;1

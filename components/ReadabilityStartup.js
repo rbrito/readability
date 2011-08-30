@@ -1,10 +1,13 @@
+Components.utils.import("resource://gre/modules/XPCOMUtils.jsm");
+
 function ReadabilityStartup() {
 }
 ReadabilityStartup.prototype = {
   classID: Components.ID("{530fe457-58ea-493a-94c3-2616a2dc54f0}"),
   contractID: "@readability/startup;1",
   classDescription: "Readability Startup",
-
+  xpcomobserversadded:false,
+  
   QueryInterface: function(aIID) {
     if(!aIID.equals(CI.nsISupports) && !aIID.equals(CI.nsIObserver))
       throw CR.NS_ERROR_NO_INTERFACE;
@@ -21,7 +24,8 @@ ReadabilityStartup.prototype = {
 		obsSvc.addObserver(this, "http-on-modify-request", false);
 		/*if (xulRuntime.OS!="WINNT")*/ /*obsSvc.addObserver(this, "http-on-examine-response", false);*/
 		/*obsSvc.addObserver(this, "profile-after-change", false);*/
-		
+		this.xpcomobserversadded=true;
+        
         break;
 	
       case "profile-after-change":
@@ -219,3 +223,10 @@ function NSGetModule(compMgr, fileSpec)
     gModule._objects[i] = new FactoryHolder(objects[i]);
   return gModule;
 } 
+
+/**
+* XPCOMUtils.generateNSGetFactory was introduced in Mozilla 2 (Firefox 4).
+* XPCOMUtils.generateNSGetModule is for Mozilla 1.9.2 (Firefox 3.6).
+*/
+if (XPCOMUtils.generateNSGetFactory)
+    var NSGetFactory = XPCOMUtils.generateNSGetFactory(objects);
