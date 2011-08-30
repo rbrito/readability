@@ -1,0 +1,21 @@
+<!ENTITY readability.ClickToActivateReadability "Klicka för att aktivera Readability">
+<!ENTITY readability.Style "Stil">
+<!ENTITY readability.Newspaper "Dagstidning">
+<!ENTITY readability.Novel "Roman">
+<!ENTITY readability.eBook "E-bok">
+<!ENTITY readability.Terminal "Terminal">
+<!ENTITY readability.Inverse "Inverterad">
+<!ENTITY readability.Athelas "Kungsklöver">
+<!ENTITY readability.Size "Textstorlek">
+<!ENTITY readability.ExtraSmall "Mycket liten">
+<!ENTITY readability.Small "Liten">
+<!ENTITY readability.Medium "Mittemellan">
+<!ENTITY readability.Large "Stor">
+<!ENTITY readability.ExtraLarge "Mycket stor">
+<!ENTITY readability.Margin "Marginaler">
+<!ENTITY readability.ExtraNarrow "Mycket smala">
+<!ENTITY readability.Narrow "Smala">
+<!ENTITY readability.Wide "Breda">
+<!ENTITY readability.ExtraWide "Mycket breda">
+<!ENTITY readability.Options "Inställningar">
+<!ENTITY readability.FootNotes "Konvertera hyperlänkar till fotnoter">

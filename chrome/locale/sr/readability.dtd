@@ -1,4 +1,4 @@
-<!ENTITY readability.ClickToActivateReadability "Кликните за активирање Readability-ја">
+<!ENTITY readability.ClickToActivateReadability "Кликните да активирате додатак">
 <!ENTITY readability.Style "Стил">
 <!ENTITY readability.Newspaper "Новине">
 <!ENTITY readability.Novel "Роман">
@@ -7,15 +7,15 @@
 <!ENTITY readability.Inverse "Инверзно">
 <!ENTITY readability.Athelas "Ателас">
 <!ENTITY readability.Size "Величина">
-<!ENTITY readability.ExtraSmall "Веома мало">
-<!ENTITY readability.Small "Мало">
-<!ENTITY readability.Medium "Средње">
-<!ENTITY readability.Large "Велико">
-<!ENTITY readability.ExtraLarge "Веома велико">
+<!ENTITY readability.ExtraSmall "веома мала">
+<!ENTITY readability.Small "мала">
+<!ENTITY readability.Medium "средња">
+<!ENTITY readability.Large "велика">
+<!ENTITY readability.ExtraLarge "веома велика">
 <!ENTITY readability.Margin "Маргине">
-<!ENTITY readability.ExtraNarrow "Веома уско">
-<!ENTITY readability.Narrow "Уско">
-<!ENTITY readability.Wide "Широко">
-<!ENTITY readability.ExtraWide "Веома широко">
-<!ENTITY readability.Options "Options">
-<!ENTITY readability.FootNotes "Convert hyperlinks to footnotes">
+<!ENTITY readability.ExtraNarrow "веома уске">
+<!ENTITY readability.Narrow "уске">
+<!ENTITY readability.Wide "широке">
+<!ENTITY readability.ExtraWide "веома широке">
+<!ENTITY readability.Options "Поставке">
+<!ENTITY readability.FootNotes "Претвори везе у фусноте">
