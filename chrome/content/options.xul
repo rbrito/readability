@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE page SYSTEM "chrome://readability/locale/options.dtd">
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<page
+      xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/javascript" src="options.js"/>
+    <groupbox  align="center">
+        <caption label="&readability.keyboard.shortcuts.caption;"/>
+        <description value="&readability.keyboard.shortcuts.label;"/>
+        <separator/>
+        <grid class="scroll">
+            <columns>
+                <column/>
+                <spacer class="small-spacer"/>
+                <column/>
+            </columns>
+            <rows id="readability-key-rows">
+				<row align="center" id="readability-key-readability-row">
+					<hbox style="width:175px"><label>Readability Shortcut :</label></hbox>
+					<hbox align="center"><description style="width:60px" id="readability-key-readability-description">Ctrl+Alt+</description><textbox value="" maxlength="1" size="1" oninput="this.value=this.value.toUpperCase()" /></hbox>
+				</row>
+				<row align="center" id="readability-key-autoscroll-row">
+					<hbox style="width:175px"><label>Auto-Scroll Shortcut :</label></hbox>
+					<hbox align="center"><description style="width:60px" id="readability-key-autoscroll-description">Ctrl+Shift+</description><textbox value="" maxlength="1" size="1"  oninput="this.value=this.value.toUpperCase()"/></hbox>
+				</row>
+			</rows>
+        </grid>
+		<hbox pack="end"><button oncommand="ReadabilityOptions.saveKeyboardShortcutChanges(event)"><label>Save</label></button><button oncommand="window.close()"><label>Cancel</label></button></hbox>
+    </groupbox>
+	
+</page>

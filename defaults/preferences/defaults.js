@@ -1,0 +1,1 @@
+pref("extensions.readability.customreadabilitykeyboardshortcut","");pref("extensions.readability.customautoscrollkeyboardshortcut","");pref("extensions.readability.currentversion","0");pref("extensions.readability.currentversion","0");pref("extensions.readability.styleoptions","0,2,3,0");pref("extensions.readability.customsize","16px");

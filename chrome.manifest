@@ -1,0 +1,21 @@
+content	readability	chrome/content/ contentaccessible=yes
+overlay	chrome://browser/content/browser.xul	chrome://readability/content/readability.xul
+skin	readability	classic/1.0	chrome/skin/classic/
+style	chrome://global/content/customizeToolbar.xul	chrome://readability/skin/readability.css
+locale	readability	en-US	chrome/locale/en-US/
+locale	readability	es-ES	chrome/locale/es-ES/
+locale	readability	fr	chrome/locale/fr/
+locale	readability	pt-BR	chrome/locale/pt-BR/
+locale	readability	tr-TR	chrome/locale/tr-TR/
+locale	readability	zh-CN	chrome/locale/zh-CN/
+locale	readability	pt-PT	chrome/locale/pt-PT/
+locale	readability	sr	chrome/locale/sr/
+locale	readability	el-GR	chrome/locale/el-GR/
+locale	readability	cs	chrome/locale/cs/
+locale	readability	ca	chrome/locale/ca/
+locale	readability	de	chrome/locale/de/
+locale	readability	ru	chrome/locale/ru/
+locale	readability	nl	chrome/locale/nl/
+locale	readability	it	chrome/locale/it/
+locale	readability	he	chrome/locale/he/
+locale	readability	et-EE	chrome/locale/et-EE/

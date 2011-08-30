@@ -1,0 +1,21 @@
+<!ENTITY readability.ClickToActivateReadability "Readability :: Etkinleştirmek için tıklayın.">
+<!ENTITY readability.Style "Stil">
+<!ENTITY readability.Newspaper "Gazete">
+<!ENTITY readability.Novel "Roman">
+<!ENTITY readability.eBook "e-Kitap">
+<!ENTITY readability.Terminal "Terminal">
+<!ENTITY readability.Inverse "Inverse">
+<!ENTITY readability.Athelas "Athelas">
+<!ENTITY readability.Size "Boyut">
+<!ENTITY readability.ExtraSmall "Çok Küçük">
+<!ENTITY readability.Small "Küçük">
+<!ENTITY readability.Medium "Orta">
+<!ENTITY readability.Large "Büyük">
+<!ENTITY readability.ExtraLarge "Çok Büyük">
+<!ENTITY readability.Margin "Kenar">
+<!ENTITY readability.ExtraNarrow "Çok Dar">
+<!ENTITY readability.Narrow "Dar">
+<!ENTITY readability.Wide "Geniş">
+<!ENTITY readability.ExtraWide "Çok Geniş">
+<!ENTITY readability.Options "Seçenekler">
+<!ENTITY readability.FootNotes "Linkleri dipnotlara dönüştür">

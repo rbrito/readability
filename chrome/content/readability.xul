@@ -1,0 +1,157 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://readability/locale/readability.dtd">
+<?xml-stylesheet href="chrome://readability/skin/readability.css" type="text/css"?>
+<overlay id="readability-overlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<script type="application/x-javascript" src="chrome://readability/content/readability.js"/>
+	<keyset>
+		<key id="readability-action-key" modifiers="accel alt" key="r" oncommand="Readability.enableREADABILITY(event);" />
+		<key id="readability-autoscroll-key" modifiers="accel shift" key="a" oncommand="Readability.autoscroll(event);" />
+	</keyset>
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarbutton id="readability-toolbarbutton" label="Readability" tooltiptext="&readability.ClickToActivateReadability;" class="toolbarbutton-1" type="menu-button" oncommand="if(event.target==this) Readability.enableREADABILITY(event);">
+			<panel id="readability-toolbar-menu" oncommand="Readability.enableREADABILITY(event);" style="list-style-image:none;" onpopupshowing="Readability.onReadabilityPanelShowing(event);">
+				<hbox id="readability-toolbarpanelbox">
+					<groupbox>
+						<caption label="&readability.Style;"/>
+						<radiogroup class="readability-style">
+							<radio id="readability-toolbar-newspaper-style" label="&readability.Newspaper;" value="newspaper" selected="true"/>
+							<radio id="readability-toolbar-novel-style" label="&readability.Novel;" value="novel"/>
+							<radio id="readability-toolbar-ebook-style" label="&readability.eBook;" value="ebook"/>
+							<!--<radio id="readability-toolbar-terminal-style" label="&readability.Terminal;" value="terminal"/>-->
+							<radio id="readability-toolbar-inverse-style" label="&readability.Inverse;" value="apertura"/>
+							<radio id="readability-toolbar-athelas-style" label="&readability.Athelas;" value="athelas"/>
+						</radiogroup>
+					</groupbox>
+					<groupbox>
+						<caption label="&readability.Size;"/>
+						<radiogroup class="readability-size" oncommand="Readability.updateSizeRadioGroup(event)">
+							<radio id="readability-toolbar-extrasmall-size" label="&readability.ExtraSmall;" value="x-small"/>
+							<radio id="readability-toolbar-small-size" label="&readability.Small;" value="small"/>
+							<radio id="readability-toolbar-medium-size" label="&readability.Medium;" value="medium" selected="true"/>
+							<radio id="readability-toolbar-large-size" label="&readability.Large;" value="large"/>
+							<radio id="readability-toolbar-extralarge-size" label="&readability.ExtraLarge;" value="x-large"/>
+							<hbox>
+								<radio id="readability-toolbar-customsize" class="readability-customsize-radio" style="margin-right:2px !important;padding-right:0 !important;"/>
+								<menulist class="readability-customsize-menulist" disabled="true">
+									<menupopup>
+										<menuitem  class="customsizemenuitem" value="9px" label="9px"/>
+										<menuitem  class="customsizemenuitem" value="10px" label="10px"/>
+										<menuitem  class="customsizemenuitem" value="11px" label="11px"/>
+										<menuitem  class="customsizemenuitem" value="12px" label="12px"/>
+										<menuitem  class="customsizemenuitem" value="13px" label="13px"/>
+										<menuitem  class="customsizemenuitem" value="14px" label="14px"/>
+										<menuitem  class="customsizemenuitem" value="15px" label="15px"/>
+										<menuitem  class="customsizemenuitem" value="16px" label="16px"/>
+										<menuitem  class="customsizemenuitem" value="17px" label="17px"/>
+										<menuitem  class="customsizemenuitem" value="18px" label="18px"/>
+										<menuitem  class="customsizemenuitem" value="20px" label="20px"/>
+										<menuitem  class="customsizemenuitem" value="22px" label="22px"/>
+										<menuitem  class="customsizemenuitem" value="24px" label="24px"/>
+										<menuitem  class="customsizemenuitem" value="26px" label="26px"/>
+										<menuitem  class="customsizemenuitem" value="28px" label="28px"/>
+										<menuitem  class="customsizemenuitem" value="30px" label="30px"/>
+										<menuitem  class="customsizemenuitem" value="32px" label="32px"/>
+										<menuitem  class="customsizemenuitem" value="34px" label="34px"/>
+										<menuitem  class="customsizemenuitem" value="36px" label="36px"/>
+										<menuitem  class="customsizemenuitem" value="40px" label="40px"/>
+									</menupopup>
+								</menulist>
+							</hbox>
+						</radiogroup>
+					</groupbox>
+					<groupbox>
+						<caption label="&readability.Margin;"/>
+						<radiogroup class="readability-margin">
+							<radio id="readability-toolbar-extranarrow-margin" label="&readability.ExtraNarrow;" value="x-narrow"/>
+							<radio id="readability-toolbar-narrow-margin" label="&readability.Narrow;" value="narrow"/>
+							<radio id="readability-toolbar-medium-margin" label="&readability.Medium;" value="medium"/>
+							<radio id="readability-toolbar-wide-margin" label="&readability.Wide;" value="wide"  selected="true"/>
+							<radio id="readability-toolbar-extrawide-margin" label="&readability.ExtraWide;" value="x-wide"/>
+						</radiogroup>
+					</groupbox>
+				</hbox>
+				<groupbox>
+					<caption label="&readability.Options;"/>
+					<radiogroup class="readability-options">
+						<checkbox id="readability-toolbar-options-footnotes"  class="readability-options-footnotes" label="&readability.FootNotes;" value="x-narrow"/>						
+					</radiogroup>
+				</groupbox>	
+			</panel>
+		</toolbarbutton>
+	</toolbarpalette>
+	<statusbar id="status-bar">
+		<statusbarpanel id="readability-panel" mousethrough="never" context="readability-statusbar-menu">
+			<image id="readability-statusbar-icon" onclick="Readability.enableREADABILITY(event);" tooltiptext="&readability.ClickToActivateReadability;"/>
+			<panel id="readability-statusbar-menu" oncommand="Readability.enableREADABILITY(event);"  onpopupshowing="Readability.onReadabilityPanelShowing(event);">
+				<hbox id="readability-statusbarpanelbox">
+					<groupbox>
+						<caption label="&readability.Style;"/>
+						<radiogroup class="readability-style">
+							<radio id="readability-statusbar-newspaper-style" label="&readability.Newspaper;" value="newspaper" selected="true"/>
+							<radio id="readability-statusbar-novel-style" label="&readability.Novel;" value="novel"/>
+							<radio id="readability-statusbar-ebook-style" label="&readability.eBook;" value="ebook"/>
+							<!--<radio id="readability-statusbar-terminal-style" label="&readability.Terminal;" value="terminal"/>-->
+							<radio id="readability-statusbar-inverse-style" label="&readability.Inverse;" value="apertura"/>
+							<radio id="readability-statusbar-athelas-style" label="&readability.Athelas;" value="athelas"/>						
+						</radiogroup>
+					</groupbox>
+					<groupbox>
+						<caption label="&readability.Size;"/>
+						<radiogroup class="readability-size">
+							<radio id="readability-statusbar-extrasmall-size" label="&readability.ExtraSmall;" value="x-small"/>						
+							<radio id="readability-statusbar-small-size" label="&readability.Small;" value="small"/>
+							<radio id="readability-statusbar-medium-size" label="&readability.Medium;" value="medium" selected="true"/>
+							<radio id="readability-statusbar-large-size" label="&readability.Large;" value="large"/>
+							<radio id="readability-statusbar-extralarge-size" label="&readability.ExtraLarge;" value="x-large"/>
+							<hbox>
+								<radio id="readability-statusbar-customsize" class="readability-customsize-radio" style="margin-right:2px !important;padding-right:0 !important;"/>
+								<menulist class="readability-customsize-menulist" disabled="true">
+									<menupopup>
+										<menuitem  class="customsizemenuitem" value="9px" label="9px"/>
+										<menuitem  class="customsizemenuitem" value="10px" label="10px"/>
+										<menuitem  class="customsizemenuitem" value="11px" label="11px"/>
+										<menuitem  class="customsizemenuitem" value="12px" label="12px"/>
+										<menuitem  class="customsizemenuitem" value="13px" label="13px"/>
+										<menuitem  class="customsizemenuitem" value="14px" label="14px"/>
+										<menuitem  class="customsizemenuitem" value="15px" label="15px"/>
+										<menuitem  class="customsizemenuitem" value="16px" label="16px"/>
+										<menuitem  class="customsizemenuitem" value="17px" label="17px"/>
+										<menuitem  class="customsizemenuitem" value="18px" label="18px"/>
+										<menuitem  class="customsizemenuitem" value="20px" label="20px"/>
+										<menuitem  class="customsizemenuitem" value="22px" label="22px"/>
+										<menuitem  class="customsizemenuitem" value="24px" label="24px"/>
+										<menuitem  class="customsizemenuitem" value="26px" label="26px"/>
+										<menuitem  class="customsizemenuitem" value="28px" label="28px"/>
+										<menuitem  class="customsizemenuitem" value="30px" label="30px"/>
+										<menuitem  class="customsizemenuitem" value="32px" label="32px"/>
+										<menuitem  class="customsizemenuitem" value="34px" label="34px"/>
+										<menuitem  class="customsizemenuitem" value="36px" label="36px"/>
+										<menuitem  class="customsizemenuitem" value="40px" label="40px"/>
+									</menupopup>
+								</menulist>
+							</hbox>
+						</radiogroup>
+					</groupbox>
+					<groupbox>
+						<caption label="&readability.Margin;"/>
+						<radiogroup class="readability-margin">
+							<radio id="readability-statusbar-extranarrow-margin" label="&readability.ExtraNarrow;" value="x-narrow"/>						
+							<radio id="readability-statusbar-narrow-margin" label="&readability.Narrow;" value="narrow"/>
+							<radio id="readability-statusbar-medium-margin" label="&readability.Medium;" value="medium"/>
+							<radio id="readability-statusbar-wide-margin" label="&readability.Wide;" value="wide" selected="true"/>
+							<radio id="readability-statusbar-extrawide-margin" label="&readability.ExtraWide;" value="x-wide"/>
+						</radiogroup>
+					</groupbox>
+				</hbox>
+				<groupbox>
+					<caption label="&readability.Options;"/>
+					<radiogroup class="readability-options">
+						<checkbox id="readability-statusbar-options-footnotes"  class="readability-options-footnotes" label="&readability.FootNotes;" value="x-narrow"/>						
+					</radiogroup>
+				</groupbox>				
+			</panel>
+		</statusbarpanel>
+	</statusbar>	
+</overlay>

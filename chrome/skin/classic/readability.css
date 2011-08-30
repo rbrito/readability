@@ -1,0 +1,14 @@
+	#readability-statusbar-icon {
+		list-style-image:url('chrome://readability/skin/statusbaricon.png');
+		cursor:pointer;
+	}
+	
+	#readability-toolbarbutton {
+		list-style-image:url('chrome://readability/skin/toolbaricon.png');
+	}
+	
+	toolbar[iconsize="small"] #readability-toolbarbutton {
+		list-style-image: url('chrome://readability/skin/statusbaricon.png');
+	}	
+	
+	.readability-customsize-radio .radio-label-box{display:none !important;}

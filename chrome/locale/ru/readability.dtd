@@ -1,0 +1,21 @@
+<!ENTITY readability.ClickToActivateReadability "Щёлкните, чтобы включить Readability">
+<!ENTITY readability.Style "Стиль">
+<!ENTITY readability.Newspaper "Газета">
+<!ENTITY readability.Novel "Роман">
+<!ENTITY readability.eBook "эл.Книга">
+<!ENTITY readability.Terminal "Терминал">
+<!ENTITY readability.Inverse "Инверсия">
+<!ENTITY readability.Athelas "Athelas">
+<!ENTITY readability.Size "Размер шрифта">
+<!ENTITY readability.ExtraSmall "Мелкий">
+<!ENTITY readability.Small "Маленький">
+<!ENTITY readability.Medium "Средний">
+<!ENTITY readability.Large "Большой">
+<!ENTITY readability.ExtraLarge "Огромный">
+<!ENTITY readability.Margin "Поля листа">
+<!ENTITY readability.ExtraNarrow "Очень узкие">
+<!ENTITY readability.Narrow "Узкие">
+<!ENTITY readability.Wide "Широкие">
+<!ENTITY readability.ExtraWide "Очень широкие">
+<!ENTITY readability.Options "Readability — Настройки">
+<!ENTITY readability.FootNotes "Преобразовать гиперссылки в сноски">

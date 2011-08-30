@@ -1,0 +1,21 @@
+<!ENTITY readability.ClickToActivateReadability "Cliqueu per activar el Readability">
+<!ENTITY readability.Style "Estil">
+<!ENTITY readability.Newspaper "Notícies">
+<!ENTITY readability.Novel "Novel·la">
+<!ENTITY readability.eBook "Llibre Electrònic">
+<!ENTITY readability.Terminal "Terminal">
+<!ENTITY readability.Inverse "Invers">
+<!ENTITY readability.Athelas "Athelas">
+<!ENTITY readability.Size "Mida">
+<!ENTITY readability.ExtraSmall "Extra Petit">
+<!ENTITY readability.Small "Petit">
+<!ENTITY readability.Medium "Mitjà">
+<!ENTITY readability.Large "Gran">
+<!ENTITY readability.ExtraLarge "Extra Gran">
+<!ENTITY readability.Margin "Marge">
+<!ENTITY readability.ExtraNarrow "Extra Estret">
+<!ENTITY readability.Narrow "Ester">
+<!ENTITY readability.Wide "Ample">
+<!ENTITY readability.ExtraWide "Extra Ample">
+<!ENTITY readability.Options "Opcions">
+<!ENTITY readability.FootNotes "Converteix Enllaços en Notes Al Peu">

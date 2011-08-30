@@ -1,0 +1,21 @@
+<!ENTITY readability.ClickToActivateReadability "Klepněte pro zapnutí Readability">
+<!ENTITY readability.Style "Vzhled">
+<!ENTITY readability.Newspaper "noviny">
+<!ENTITY readability.Novel "román">
+<!ENTITY readability.eBook "ekniha">
+<!ENTITY readability.Terminal "terminál">
+<!ENTITY readability.Inverse "inverzní">
+<!ENTITY readability.Athelas "Athelas">
+<!ENTITY readability.Size "Velikost">
+<!ENTITY readability.ExtraSmall "velmi malá">
+<!ENTITY readability.Small "malá">
+<!ENTITY readability.Medium "střední">
+<!ENTITY readability.Large "velká">
+<!ENTITY readability.ExtraLarge "velmi velká">
+<!ENTITY readability.Margin "Okraje">
+<!ENTITY readability.ExtraNarrow "velmi úzké">
+<!ENTITY readability.Narrow "úzké">
+<!ENTITY readability.Wide "široké">
+<!ENTITY readability.ExtraWide "velmi široké">
+<!ENTITY readability.Options "Options">
+<!ENTITY readability.FootNotes "Convert hyperlinks to footnotes">

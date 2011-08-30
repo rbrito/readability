@@ -1,0 +1,21 @@
+<!ENTITY readability.ClickToActivateReadability "点一下激活 Readability">
+<!ENTITY readability.Style "风格">
+<!ENTITY readability.Newspaper "报纸">
+<!ENTITY readability.Novel "小说">
+<!ENTITY readability.eBook "电子书">
+<!ENTITY readability.Terminal "终端">
+<!ENTITY readability.Inverse "反选">
+<!ENTITY readability.Athelas "Athelas">
+<!ENTITY readability.Size "大小">
+<!ENTITY readability.ExtraSmall "超小">
+<!ENTITY readability.Small "小">
+<!ENTITY readability.Medium "中等">
+<!ENTITY readability.Large "大">
+<!ENTITY readability.ExtraLarge "超大">
+<!ENTITY readability.Margin "页边空白">
+<!ENTITY readability.ExtraNarrow "超窄">
+<!ENTITY readability.Narrow "窄">
+<!ENTITY readability.Wide "宽">
+<!ENTITY readability.ExtraWide "超宽">
+<!ENTITY readability.Options "选项">
+<!ENTITY readability.FootNotes "转换超链接为脚注">

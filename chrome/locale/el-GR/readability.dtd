@@ -1,0 +1,21 @@
+<!ENTITY readability.ClickToActivateReadability "Κάντε κλικ για να ενεργοποιηθεί το Readability">
+<!ENTITY readability.Style "Στυλ">
+<!ENTITY readability.Newspaper "Εφημερίδα">
+<!ENTITY readability.Novel "Νουβέλα">
+<!ENTITY readability.eBook "eBook">
+<!ENTITY readability.Terminal "Τερματικό">
+<!ENTITY readability.Inverse "Ανάποδο">
+<!ENTITY readability.Athelas "Athelas">
+<!ENTITY readability.Size "Μέγεθος">
+<!ENTITY readability.ExtraSmall "Πολύ μικρό">
+<!ENTITY readability.Small "Μικρό">
+<!ENTITY readability.Medium "Μέτριο">
+<!ENTITY readability.Large "Μεγάλο">
+<!ENTITY readability.ExtraLarge "Πολύ μεγάλο">
+<!ENTITY readability.Margin "Περιθώριο">
+<!ENTITY readability.ExtraNarrow "Πολύ στενό">
+<!ENTITY readability.Narrow "Στενό">
+<!ENTITY readability.Wide "Φαρδύ">
+<!ENTITY readability.ExtraWide "Πολύ φαρδύ">
+<!ENTITY readability.Options "Options">
+<!ENTITY readability.FootNotes "Μετατροπή δεσμών σε υποσημειώσεις">

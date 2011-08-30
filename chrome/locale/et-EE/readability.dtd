@@ -1,0 +1,21 @@
+<!ENTITY readability.ClickToActivateReadability "Klõpsake, et aktiveerida Loetavus">
+<!ENTITY readability.Style "Stiil">
+<!ENTITY readability.Newspaper "Ajaleht">
+<!ENTITY readability.Novel "Novell">
+<!ENTITY readability.eBook "E-Raamat">
+<!ENTITY readability.Terminal "Terminal">
+<!ENTITY readability.Inverse "Inverse">
+<!ENTITY readability.Athelas "Atlas">
+<!ENTITY readability.Size "Suurus">
+<!ENTITY readability.ExtraSmall "Väga Väike">
+<!ENTITY readability.Small "Väike">
+<!ENTITY readability.Medium "Keskmine">
+<!ENTITY readability.Large "Suur">
+<!ENTITY readability.ExtraLarge "Väga Suur">
+<!ENTITY readability.Margin "Veeris">
+<!ENTITY readability.ExtraNarrow "Väga Kitsas">
+<!ENTITY readability.Narrow "Kitsas">
+<!ENTITY readability.Wide "Lai">
+<!ENTITY readability.ExtraWide "Väga Lai">
+<!ENTITY readability.Options "Sätted">
+<!ENTITY readability.FootNotes "Teisenda hüperlingid joonealusteks märkusteks">

@@ -1,0 +1,21 @@
+<!ENTITY readability.ClickToActivateReadability "לחיצה להפעלת Readability">
+<!ENTITY readability.Style "סגנון">
+<!ENTITY readability.Newspaper "עיתון">
+<!ENTITY readability.Novel "רומן">
+<!ENTITY readability.eBook "eBook">
+<!ENTITY readability.Terminal "מסוף/טרמינל">
+<!ENTITY readability.Inverse "מהופך/נגדי">
+<!ENTITY readability.Athelas "Athelas">
+<!ENTITY readability.Size "גודל">
+<!ENTITY readability.ExtraSmall "קטן יותר">
+<!ENTITY readability.Small "קטן">
+<!ENTITY readability.Medium "ממוצע">
+<!ENTITY readability.Large "גדול">
+<!ENTITY readability.ExtraLarge "גדול יותר">
+<!ENTITY readability.Margin "שוליים">
+<!ENTITY readability.ExtraNarrow "צר יותר">
+<!ENTITY readability.Narrow "צר">
+<!ENTITY readability.Wide "רחב">
+<!ENTITY readability.ExtraWide "רחב יותר">
+<!ENTITY readability.Options "אפשרויות">
+<!ENTITY readability.FootNotes "המרת קישורים להערות שוליים">

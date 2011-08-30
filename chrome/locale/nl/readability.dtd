@@ -1,0 +1,21 @@
+<!ENTITY readability.ClickToActivateReadability "Klik om Readability te activeren">
+<!ENTITY readability.Style "Stijl">
+<!ENTITY readability.Newspaper "Krant">
+<!ENTITY readability.Novel "Boek">
+<!ENTITY readability.eBook "eBook">
+<!ENTITY readability.Terminal "Beeldscherm">
+<!ENTITY readability.Inverse "Omdraaien">
+<!ENTITY readability.Athelas "Athelas">
+<!ENTITY readability.Size "Grootte">
+<!ENTITY readability.ExtraSmall "Extra klein">
+<!ENTITY readability.Small "Klein">
+<!ENTITY readability.Medium "Gemiddeld">
+<!ENTITY readability.Large "Groot">
+<!ENTITY readability.ExtraLarge "Extra groot">
+<!ENTITY readability.Margin "Marge">
+<!ENTITY readability.ExtraNarrow "Extra smal">
+<!ENTITY readability.Narrow "Smal">
+<!ENTITY readability.Wide "Breed">
+<!ENTITY readability.ExtraWide "Extra breed">
+<!ENTITY readability.Options "Opties">
+<!ENTITY readability.FootNotes "Snelkoppelingen naar voetnoten converteren">

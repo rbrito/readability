@@ -1,0 +1,21 @@
+<!ENTITY readability.ClickToActivateReadability "Кликните за активирање Readability-ја">
+<!ENTITY readability.Style "Стил">
+<!ENTITY readability.Newspaper "Новине">
+<!ENTITY readability.Novel "Роман">
+<!ENTITY readability.eBook "Е-књига">
+<!ENTITY readability.Terminal "Дело">
+<!ENTITY readability.Inverse "Инверзно">
+<!ENTITY readability.Athelas "Ателас">
+<!ENTITY readability.Size "Величина">
+<!ENTITY readability.ExtraSmall "Веома мало">
+<!ENTITY readability.Small "Мало">
+<!ENTITY readability.Medium "Средње">
+<!ENTITY readability.Large "Велико">
+<!ENTITY readability.ExtraLarge "Веома велико">
+<!ENTITY readability.Margin "Маргине">
+<!ENTITY readability.ExtraNarrow "Веома уско">
+<!ENTITY readability.Narrow "Уско">
+<!ENTITY readability.Wide "Широко">
+<!ENTITY readability.ExtraWide "Веома широко">
+<!ENTITY readability.Options "Options">
+<!ENTITY readability.FootNotes "Convert hyperlinks to footnotes">

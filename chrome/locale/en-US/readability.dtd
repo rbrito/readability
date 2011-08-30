@@ -1,0 +1,21 @@
+<!ENTITY readability.ClickToActivateReadability "Click to activate Readability">
+<!ENTITY readability.Style "Style">
+<!ENTITY readability.Newspaper "Newspaper">
+<!ENTITY readability.Novel "Novel">
+<!ENTITY readability.eBook "eBook">
+<!ENTITY readability.Terminal "Terminal">
+<!ENTITY readability.Inverse "Inverse">
+<!ENTITY readability.Athelas "Athelas">
+<!ENTITY readability.Size "Size">
+<!ENTITY readability.ExtraSmall "Extra Small">
+<!ENTITY readability.Small "Small">
+<!ENTITY readability.Medium "Medium">
+<!ENTITY readability.Large "Large">
+<!ENTITY readability.ExtraLarge "Extra Large">
+<!ENTITY readability.Margin "Margin">
+<!ENTITY readability.ExtraNarrow "Extra Narrow">
+<!ENTITY readability.Narrow "Narrow">
+<!ENTITY readability.Wide "Wide">
+<!ENTITY readability.ExtraWide "Extra Wide">
+<!ENTITY readability.Options "Options">
+<!ENTITY readability.FootNotes "Convert hyperlinks to footnotes">
