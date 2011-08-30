@@ -1,0 +1,19 @@
+--- a/chrome/content/style/readability.css
++++ b/chrome/content/style/readability.css
+@@ -90,11 +90,11 @@
+ .style-athelas{font-family:athelas-1,athelas-2,"Palatino Linotype","Book Antiqua",Palatino,serif;background-color:#f7f7f7;color:#2b373d;}
+ .style-athelas #readInner a{color:#1e83cb;}
+ /* Margin */
+-.margin-x-narrow{width:95%;}
+-.margin-narrow{width:85%;}
+-.margin-medium{width:75%;}
+-.margin-wide{width:55%;}
+-.margin-x-wide{width:35%;}
++.margin-x-narrow{width:100%;}
++.margin-narrow{width:90%;}
++.margin-medium{width:80%;}
++.margin-wide{width:60%;}
++.margin-x-wide{width:40%;}
+ /* @end User Styles */
+ /* -- DEBUG -- */
+ .bug-green{background:#bbf9b0;border:4px solid green;}
